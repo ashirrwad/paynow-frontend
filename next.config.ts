@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://paynow-2ppo.onrender.com/api/:path*',
+        destination: process.env.NEXT_BACKEND_URL + 'api/:path*',
       },
     ]
   },
