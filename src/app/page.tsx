@@ -139,7 +139,6 @@ export default function Home() {
         </form>
       </div>
 
-            rel="noopener noreferrer"
       {response && <ResponseDisplay response={response} />}
     </main>
   );
